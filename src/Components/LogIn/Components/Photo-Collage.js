@@ -3,6 +3,10 @@ import React from 'react'
 let imagePath = './Static-Images/'
 let stubImages = [
   {
+    fileName: 'punk-101.jpeg',
+    alt: 'Car parked at night.',
+  },
+  {
     fileName: 'bike.jpeg',
     alt: 'Bmx Bike Jump.',
   },
@@ -21,19 +25,15 @@ let stubImages = [
 ]
 let stubImages2 = [
   {
-    fileName: 'bike.jpeg',
-    alt: 'Bmx Bike Jump.',
-  },
-  {
     fileName: 'punk-101.jpeg',
     alt: 'Car parked at night.',
   },
   {
-    fileName: 'skate.jpeg',
+    fileName: 'smoke.jpeg',
     alt: 'Car parked at night.',
   },
   {
-    fileName: 'smoke.jpeg',
+    fileName: 'skate.jpeg',
     alt: 'Car parked at night.',
   },
   {
@@ -47,7 +47,7 @@ function ImageResolution(props) {
     <img
       src={props.imageUrl}
       alt={props.altTag}
-      className={"w-28 rounded-xl " + props.addtionalClasses} 
+      className={"w-20	rounded-xl " + props.addtionalClasses} 
     />
   )
 }
@@ -74,7 +74,7 @@ function PhotoCollage() {
             imageUrl={imagePath + photoInfo.fileName}
             key={key}
             altTag={photoInfo.fileName}
-            addtionalClasses="mx-5"
+
           />
         )
       })}
