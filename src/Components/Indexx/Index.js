@@ -1,7 +1,7 @@
 import React from 'react';
 import PhotoCollage from "./Components/Photo-Collage";
 import useWindowSize from '../Utility/Window/WIndowSize';
-import Nav from "../Utility/Nav/Moblie/Nav";
+import Nav from "../Utility/Nav/unAuth/Nav";
 
 function Login(){
     const windowSize = useWindowSize();

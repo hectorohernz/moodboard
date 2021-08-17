@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
-import LogIn from "../src/Components/Index/Index";
-import Index from "./Components/LogIn/Index";
+import LogIn from "./Components/LogIn/Index";
+import Index from "./Components/Index/Index";
 
 import './index.css';
 
