@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
-import Index from "../src/Components/Index/Index";
+import LogIn from "../src/Components/Index/Index";
+import Index from "./Components/LogIn/Index";
+
 import './index.css';
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
     <main className="main-app">
       <Switch>
         <Route exact component={Index} path="/" />
+        <Route  component={LogIn} path="/Login" />
       </Switch>
     </main>
   </Router>

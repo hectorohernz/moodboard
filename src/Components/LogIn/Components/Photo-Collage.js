@@ -47,7 +47,7 @@ function ImageResolution(props) {
     <img
       src={props.imageUrl}
       alt={props.altTag}
-      className={"w-20	rounded-xl " + props.addtionalClasses} 
+      className={"w-16	rounded-xl " + props.addtionalClasses} 
     />
   )
 }
@@ -74,7 +74,7 @@ function PhotoCollage() {
             imageUrl={imagePath + photoInfo.fileName}
             key={key}
             altTag={photoInfo.fileName}
-
+            addtionalClasses="mx-3"
           />
         )
       })}
