@@ -12,7 +12,7 @@ function Login(){
     } else{
         phoneTemplate = (
           <div className="flex justify-center">
-              <img src="../Static-Images/phone-image.jpg" alt="" className="w-60"/>
+              <img src="../Static-Images/phone-image.jpg" alt="" className="w-48"/>
           </div>
         );
     }
@@ -31,7 +31,7 @@ function Login(){
                     <h3>with moodboard.</h3>
                 </div>
                 <div className="flex justify-center py-3 pb-16">
-                    <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow w-72">Create an account</button>
+                    <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow md:w-72">Create an account</button>
                 </div>
             </section>
         </>

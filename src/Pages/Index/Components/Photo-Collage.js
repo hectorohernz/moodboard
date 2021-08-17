@@ -47,7 +47,7 @@ function ImageResolution(props) {
     <img
       src={props.imageUrl}
       alt={props.altTag}
-      className={"w-16	rounded-xl " + props.addtionalClasses} 
+      className={"w-24 rounded-xl " + props.addtionalClasses} 
     />
   )
 }
