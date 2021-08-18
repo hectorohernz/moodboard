@@ -7,8 +7,8 @@ function Index() {
   return (
     <>
       <Nav/>
-      <section className="pt-2 ">
-          <div className="pl-7 font-medium text-xl">
+      <section className="pt-2 px-4	">
+          <div className="font-medium text-xl">
             <h2>Log In</h2>
           </div>
           <SignInForm/>
