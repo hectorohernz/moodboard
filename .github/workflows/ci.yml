@@ -14,6 +14,12 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
   build:
     runs-on: ubuntu-latest
+    
     steps:
-      - run: echo "Testing Build"
-      
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
