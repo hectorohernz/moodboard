@@ -6,7 +6,7 @@ import useWindowSize from "../Utility/Window/WIndowSize";
 
 function IndexMobileScreen() {
   return (
-    <section className="pt-2 px-4	">
+    <section className="pt-2 px-4	flex flex-col items-center">
       <div className="font-medium text-2xl">
         <h2>Sign in into MoodBoard</h2>
       </div>
