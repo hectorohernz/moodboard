@@ -17,7 +17,7 @@
   "scripts": {
     "create": "craco start",
     "start":"node server.js",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "heroku-postbuild": "npm install --only=dev && npm install && npm run build",
     "build": "CI= GENERATE_SOURCEMAP=false craco build && echo '/* /index.html 200' | cat >build/_redirects",
     "test": "craco test",
     "eject": "react-scripts eject"
